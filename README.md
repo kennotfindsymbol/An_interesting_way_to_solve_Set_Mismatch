@@ -58,34 +58,44 @@ $$
 6-2&=(1+2+...+7)-(1+2+3+4+5+2+7) .
 \end{aligned}
 $$
+
 In general,
+
 $$
 \begin{equation}
 	l-r=s_0-s, \tag{1}
 \end{equation}
 $$
+
 which will be stored in a `delta_s` variable in the code.
 
 Similarly,
+
 $$
 \begin{aligned}
 (1^2+2^2+3^2+4^2+5^2+2^2+7^2) &= (1^2+2^2+...+7^2) - 6^2+2^2\\
 6^2-2^2&=(1^2+2^2+...+7^2)-(1^2+2^2+3^2+4^2+5^2+2^2+7^2).
 \end{aligned}
 $$
+
 In general,
+
 $$
 \begin{aligned}
 	(l-r)(l+r)=sq_0-sq.
 \end{aligned}
 $$
+
 Since the term $l-r$ is in $(1)$, we can get
+
 $$
 \begin{aligned}
 	l+r &= \frac {sq_0-sq}{s_0-s}. \tag{3}
 \end{aligned}
 $$
+
 Now it's just grade 8(?) math, computing $l$ first,
+
 $$
 \begin{aligned}
 	l-r + l+r &= s_0-s+\frac {sq_0-sq}{s_0-s}\\
@@ -93,7 +103,9 @@ $$
 	l &= \frac{1}{2}(s_0-s+\frac {sq_0-sq}{s_0-s}).
 \end{aligned}
 $$
+
 In code I will just use `res[1]` and `delta_s` but $r$ can be expressed with only the four computed terms.
+
 $$
 \begin{aligned}
 	l-r  &= s_0-s\\
