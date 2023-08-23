@@ -94,9 +94,9 @@ $$
 Since the term $l-r$ is in $(1)$, we can get
 
 $$
-\begin{aligned}
-	l+r &= \frac {sq_0-sq}{s_0-s}. \tag{3}
-\end{aligned}
+\begin{equation}
+	l+r = \frac {sq_0-sq}{s_0-s}. \tag{3}
+\end{equation}
 $$
 
 Now it's just grade 8(?) math, computing $l$ first,
