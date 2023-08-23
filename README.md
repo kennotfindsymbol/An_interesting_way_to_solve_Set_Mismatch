@@ -44,14 +44,19 @@ This brought back all the Discrete Math/Mathematics for Computer Science memorie
 Let's call the lost number 6 as $l$, and the repeated number 2 as $r$.
 
 Denote the sum of natural numbers from 1 to n as $s_0$/`s0` and the actual sum of numbers in the array as $s$/`s`. $s_0$ can be computed with the formula 
+
 $$
 	\sum_{i=1}^n i = \frac{n(n+1)}{2}.
 $$
+
 Similarly, denote the sum of squares from 1 to n as $sq_0$/`sq0` and the actual sum of squares $sq$/`sq`. $sq_0$ can be computed with the formula 
+
 $$
 	\sum_{i=1}^n i^2 = \frac{n(n+1)(2n+1)}{6}.
 $$
+
 We can actually extract $l$ and $r$ from the given array and represent the difference of these two numbers with terms computed above.
+
 $$
 \begin{aligned}
  (1+2+...+7)-6+2 &=(1+2+3+4+5+2+7)\\
