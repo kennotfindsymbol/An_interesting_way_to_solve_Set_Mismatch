@@ -95,7 +95,7 @@ Since the term $l-r$ is in $(1)$, we can get
 
 $$
 \begin{equation}
-	l+r = \frac {sq_0-sq}{s_0-s}. \tag{3}
+	l+r = \frac {sq_0-sq}{s_0-s}. \tag{2}
 \end{equation}
 $$
 
