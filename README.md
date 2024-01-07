@@ -122,8 +122,7 @@ $$
 
 
 ## Time complexity
-Both `s_0` and `sq_0` can be computed in O(1) time, while `s` and `sq` needs O(n) time. However, from I have learnt in [CENG3420](http://www.cse.cuhk.edu.hk/~byu/CENG3420/2023Spring/index.html), **multiplications** for `sq` take longer time than **additions** for `count[nums[i]]++`.
-~~Computers today are extremely fast so nvm~~
+Both `s_0` and `sq_0` can be computed in O(1) time, while `s` and `sq` needs O(n) time.
 ## Space complexity
 O(1)
 
