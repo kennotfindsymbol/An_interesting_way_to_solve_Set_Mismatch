@@ -127,11 +127,3 @@ Both `s_0` and `sq_0` can be computed in O(1) time, while `s` and `sq` needs O(n
 ## Space complexity
 O(1)
 
-## Code
-When writing the code, sums and sums of squares can get very large so please use the appropriate data type to store them. I used `long` in Java.
-
-``` Java
-
-```
-
-# supamarket
